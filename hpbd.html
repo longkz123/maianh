@@ -24,13 +24,13 @@
 
         .balloon {
             display: inline-block;
-            width: 100px;
-            height: 125px;
+            width: 50px;
+            height: 75px;
             background: hsl(215, 50%, 65%);
             border-radius: 80%;
             position: relative;
             box-shadow: inset -10px -10px 0 rgba(0, 0, 0, 0.07);
-            margin: 200px 30px;
+            margin: 0px 30px 100px 30px;
             transition: transform 0.5s ease;
             z-index: 10;
             animation: balloons 4s ease-in-out infinite;
@@ -64,7 +64,7 @@
 
         .balloon:after {
             display: inline-block;
-            top: 130px;
+            top: 80px;
             position: absolute;
             height: 150px;
             width: 1px;
@@ -303,7 +303,7 @@
         }
 
         .date-of-birth {
-            width: 50%;
+            width: 100%;
             margin: 0px auto;
             margin-top: 300px;
             margin-bottom: 100px;
@@ -318,7 +318,7 @@
             line-height: 100px;
             color: #f84842;
             font-family: 'Pacifico', cursive;
-            font-size: 100px;
+            font-size: 50px;
             font-weight: 600;
         }
 
@@ -331,9 +331,12 @@
             border-left: 5px solid #f84842;
         }
 
-        @media only screen and (max-width: 1080px) {
+        @media screen and (max-width: 414px) {
             .date-of-birth {
                 width: 100%;
+            }
+            .date,.year{
+                font-size: 25px;
             }
         }
 
@@ -382,7 +385,7 @@
 
         .main-text {
             padding: 20px;
-            width: 80%;
+            width: 100%;
             margin: 0 auto;
             margin-bottom: 200px;
         }
@@ -426,7 +429,7 @@
         }
 
         .container {
-            width: 600px;
+            width: 100%;
             height: 200px;
             background: #d9dbbc75;
             border-radius: 30px;
@@ -442,8 +445,8 @@
         /**/
         .box {
             position: relative;
-            width: 400px;
-            height: 400px;
+            width: 75%;
+            height: 285px;
             border-radius: 50%;
             overflow: hidden;
             margin: 50px auto;
@@ -475,7 +478,7 @@
         .box::after {
             content: '';
             position: absolute;
-            inset: 6px;
+            inset: 20px;
             background: #0f1846;
             border-radius: 50%;
             z-index: 1;
@@ -551,7 +554,7 @@
         .name h2 {
             display: flex;
             color: transparent;
-            font-size: 100px;
+            font-size: 50px;
         }
 
         .name h2 span {
@@ -663,20 +666,18 @@
         }
 
         #demo {
-            font-size: 70px;
+            font-size: 30px;
             color: #f84842;
         }
 
         .m-text {
-            font-size: 50px;
+            font-size: 20px;
         }
     </style>
 </head>
 
 <body>
     <!--balloon-->
-    <div class="balloon"></div>
-    <div class="balloon"></div>
     <div class="balloon"></div>
     <div class="balloon"></div>
     <div class="balloon"></div>
@@ -748,14 +749,7 @@
     </div>
     <div class="main-text">
         <div class="m-text">
-            Đây là bộ chuyển đổi phông chữ được phát triển bởi AhaChat, hãy nhập văn bản mà bạn muốn chuyển đổi font vào
-            ô
-            bên dưới sau đó sao chép và dán chúng vào Facebook. Bộ công cụ này hoạt động hầu hết mọi nơi mà Facebook cho
-            phép nhập văn bản: cập nhật trạng thái, tin nhắn, tiểu sử, bình luận... Tất cả các font chữ bên dưới đều là
-            font
-            Unicode nên chúng sẽ hiển thị với hầu hết mọi nơi bạn có thể dán văn bản, ví dụ như các trang mạng xã hội,
-            các
-            bình luận, diễn đàn, tài liệu... chứ không chỉ riêng gì trên nền tảng Facebook.
+           Hay ăn chóng nhớn!!!
         </div>
     </div>
 
